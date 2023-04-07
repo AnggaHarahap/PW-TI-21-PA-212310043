@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+header{
+	margin: 0;
+	padding: 20px;
+	color: white;
+	background-color: black;
+  }
+  
+
+  .hero {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+	background-image: url(../../assets/Angga_P.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+  /* Body Styles */
+  body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+  }
+  
+  /* Header Styles */
+  header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+	font-size: 32px;
+	font-weight: bold;
+  }
+  
+  nav ul {
+	display: flex;
+	list-style: none;
+  }
+  
+  nav li {
+	margin-left: 20px;
+  }
+  
+  nav a {
+	text-decoration: none;
+	color: white;
+	transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+	color: #0066cc;
+  }
+  
+  /* Main Styles */
+  main {
+	padding-left: 10px;
+  }
+  .warna{
+	color: #333;
+  }
+
+  /* #contact { 
+	margin-top: 200px;
+
+  }*/
